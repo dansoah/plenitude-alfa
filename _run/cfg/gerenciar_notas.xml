@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Notas</titulo>
+	<largura>300</largura>
+	<altura>500</altura>
+	<load>gerenciar_boletins</load>
+</pagina>

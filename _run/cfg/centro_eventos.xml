@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Eventos</titulo>
+	<largura>500</largura>
+	<altura>500</altura>
+	<load>controle_eventos</load>
+</pagina>

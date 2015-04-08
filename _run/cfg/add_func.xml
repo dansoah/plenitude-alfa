@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Funcionários</titulo>
+	<largura>700</largura>
+	<altura>500</altura>
+	<load>add_func</load>
+</pagina>

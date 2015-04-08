@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Estoque</titulo>
+	<largura>385</largura>
+	<altura>500</altura>
+	<load>entrada_e_saida_de_livros</load>
+</pagina>

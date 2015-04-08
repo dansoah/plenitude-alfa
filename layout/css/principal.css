@@ -1,0 +1,315 @@
+/* RESET HTML */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+:focus {
+	outline: 0;
+}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	font-family:'segoe-ui';
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*Base */
+
+#top {
+	width: 100%;
+	height: 30px;
+	background-color: #000;
+	position: fixed;
+	z-index: 1;
+	color: #FFF;
+	font-size: 10px;
+}
+#top #menu_plenitude {
+	float: left;
+	font-family: verdana;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+#top #menu_plenitude #click_menu {
+	height: 30px;
+	background-color: #282828;
+	width: 30px;
+}
+#top #menu_plenitude #list_menu {
+	background-color: #282828;
+	width: 130px;
+}
+#top #menu_plenitude #list_menu li {
+	padding: 10px;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #666;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	display: block;
+}
+#top #menu_plenitude #list_menu li a {
+	color: #666;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	display: block;
+}
+#top #menu_plenitude #list_menu li a:hover {
+	color: #FFF;
+	opacity: 0.9;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	display: block;
+}
+#top #nome_colegio {
+	float: left;
+	margin-left: 20px;
+	font-family: verdana;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+#top #eventos {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: verdana;
+	font-weight: bolder;
+	background-color: #fa2d7a;
+	min-width: 13px;
+	max-width: 50px;
+	width: 13px;
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+}
+#top #ur {
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+	font-family: verdana;
+	font-weight: bolder;
+}
+#desktop {
+	margin-top: 30px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	background-color: #FFF;
+	overflow: hidden;
+	z-index: 0;
+}
+#rodape {
+	position: fixed;
+	height: 20px;
+	z-index: 1;
+	bottom: 0px;
+	width: 100%;
+}
+#mais_eventos{
+	display:none;
+	position:relative;
+	height:150px;
+	float:right;
+	width:200px;
+	background-color:#fa2d7a;
+	margin-top:5px;
+	margin-left:10px;
+	font-size:14px;
+	max-height:300px;
+	overflow:auto;
+	font-family: 'segoe ui';
+	padding:5px;
+	text-shadow:1px 1px 1px #000;
+}
+#mais_eventos li{
+	margin-top:10px;
+}
+/* ícones */
+.icone {
+	position: absolute;
+	width: 80px;
+	height: 70px;
+	z-index: 3;
+}
+.icone_imagem {
+	width: 40px;
+	height: 60px;
+	max-width: 40px;
+	max-height: 60px;
+	overflow: hidden;
+	cursor: pointer;
+	margin-left: 20px;
+	z-index: auto;
+}
+.icone_texto {
+	text-align: center;
+	font-size: 10px;
+	z-index: auto;
+	color: #FFF;
+	font-family: 'segoe ui';
+	text-shadow: 1px 1px 1px #000;
+	font-weight: 500;
+}
+.icone_texto_selecionado {
+	font-size: 10px;
+	background-color: #282828;
+	color: #FFF;
+}
+.icone_texto a {
+	color: #fff;
+	text-decoration: none;
+}
+.icone_texto_selecionado a {
+	color: #FFF;
+	text-decoration: none;
+}
+/* janelas */
+.janela {
+	position: absolute;
+	height: 200px;
+	width: 300px;
+	min-width: 400px;
+	min-height: 300px;
+	max-width: 90%;
+	max-height: 90%;
+	z-index: 4;
+	background-color: #FFF;
+	box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+	padding: 8px;
+}
+.janela_conteudo {
+	background-color: #F2F2F2;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: auto;
+	border-top: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	color: #141414;
+	font-size: 12px;
+	font-family:'segoe-ui';
+}
+.janela_topo {
+}
+.janela_titulo {
+	cursor: pointer;
+	width: 300px;
+	float: left;
+	font-family: Verdana;
+	font-weight: bolder;
+	color: #545454;
+	font-size: 12px;
+}
+.janela_botoes {
+	width: 50px;
+	float: right;
+}
+.janela_minimizada {
+	cursor: pointer;
+	position: relative;
+	font-family: Verdana;
+	font-weight: bolder;
+	color: #545454;
+	font-size: 12px;
+}
+.janela_minimizada li {
+	display: inline;
+	float: left;
+}
+.janela_minimizada_normal {
+	background-color: #FFF;
+	opacity: 0.6;
+	display: none;
+	width: 150px;
+	min-width: 150px;
+	max-width: 300px;
+	overflow: hidden;
+	padding: 3px;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.janela_minimizada_hover {
+	background-color: #FFF;
+	opacity: 0.9;
+	display: none;
+	width: 150px;
+	min-width: 150px;
+	max-width: 300px;
+	overflow: hidden;
+	padding: 3px;
+	box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.btnJanela {
+	border: none;
+	height: 15px;
+	width: 10px;
+	margin-left: 3px;
+	font-weight: bolder;
+	border-radius: 0px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #FFF;
+	color: #CCC;
+}
+.btnJanelaHover {
+	color: #282828;
+}
+/********************** MENUS********************************/
+.contextMenu {
+	z-index: 9;
+}
+/**********************************************************/
+.btnSucesso {
+	background-color: #f7ffe2;
+	border: 1px solid #b7cf77;
+	color: #FFF;
+}
+.btnFalha {
+	background-color: #ff9caa;
+	border: 1px solid #ba717b;
+	color: #FFF;
+}
+.btnFormal {
+	border: 1px dashed #ccc;
+	color: #e7e7e7;
+	background-color: #FFF;
+}
+.btnBox{
+	border-left:3px dashed #CCC;
+	border-bottom:2px solid #CCC;
+	border-top:2px solid #CCC;
+	border-right:2px solid #CCC;
+	
+}

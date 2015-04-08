@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>pSearch</titulo>
+	<largura>700</largura>
+	<altura>500</altura>
+	<load>pesquisar_geral</load>
+</pagina>

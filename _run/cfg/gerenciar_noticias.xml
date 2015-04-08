@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Noticias</titulo>
+	<largura>700</largura>
+	<altura>500</altura>
+	<load>centro_noticias</load>
+</pagina>

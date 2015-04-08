@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Pesquisar</titulo>
+	<largura>445</largura>
+	<altura>500</altura>
+	<load>buscarlivros</load>
+</pagina>

@@ -1,0 +1,26 @@
+.esquerda {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+}
+.direita {
+	padding: 5px;
+	width: 100px;
+	border-left: 5px solid #CCC;
+	background-color: #E9E9E9;
+	border-bottom: 1px solid #CCC;
+	text-align: center;
+}
+.direita a {
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+	color: #212121;
+	text-decoration: none;
+}
+.tbheader {
+	text-align: center;
+	font-weight: bold;
+	color: #909090;
+	font-family: arial;
+}
+

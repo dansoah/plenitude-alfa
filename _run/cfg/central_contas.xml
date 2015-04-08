@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Contas</titulo>
+	<largura>850</largura>
+	<altura>500</altura>
+	<load>contas_pagar_receber</load>
+</pagina>

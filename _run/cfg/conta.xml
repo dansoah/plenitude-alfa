@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Conta</titulo>
+	<largura>150</largura>
+	<altura>500</altura>
+	<load>alterar_conta</load>
+</pagina>

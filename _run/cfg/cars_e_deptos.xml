@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Controle</titulo>
+	<largura>700</largura>
+	<altura>500</altura>
+	<load>departamentos_e_cargos</load>
+</pagina>

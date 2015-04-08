@@ -1,0 +1,6 @@
+<pagina>
+	<titulo>Comunicados</titulo>
+	<largura>500</largura>
+	<altura>300</altura>
+	<load>get_comunicados</load>
+</pagina>
